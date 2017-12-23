@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
                          '--main'     << 'README' <<
                          '--all'
 
-  s.add_dependency 'activerecord', '>=3.0'
+  s.add_dependency 'activerecord', '>=3.0', '<5.0'
   s.add_dependency 'sinatra'
   s.add_dependency 'active_model_serializers'
   s.add_dependency 'json',          ['>= 1.1.7']
